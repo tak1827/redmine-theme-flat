@@ -1,5 +1,4 @@
-
-@import "compass/css3";
+@import compass/css3
 
 // Widths
 //----------------------------------------------------------------------------------------------------
@@ -7,9 +6,9 @@
 // Added via JS to <textarea> and class="input-full".
 // Applies only to IE7. Other browsers don't need it.
 
-.input_full_wrap {
-  padding-right:0px; padding-left:8px;
-}
+.input_full_wrap
+  padding-right: 0px
+  padding-left: 8px
 
 // UI Consistency
 //----------------------------------------------------------------------------------------------------
@@ -28,26 +27,24 @@ input[type="tel"],
 input[type="text"],
 input[type="time"],
 input[type="url"],
-input[type="week"] {
-  text-align:right;
-
-}
+input[type="week"]
+  text-align: right
 
 // Tweaks for Safari + Chrome.
-@media (-webkit-min-device-pixel-ratio: 0) {
+@media (-webkit-min-device-pixel-ratio: 0)
   select[size],
   select[multiple],
-  select[multiple][size] {
-	padding-right:0px; padding-left:3px;
-  }
+  select[multiple][size]
+    padding-right: 0px
+    padding-left: 3px
+
   select,
   select[size="0"],
-  select[size="1"] {
-	// Base64 encoded "../images/select_arrow.gif"
-	background-position:5px center;
-	padding-right:0px; padding-left:20px;
-  }
-  ::-webkit-validation-bubble-message {
-	background: -webkit-gradient(linear, right top, right bottom, color-stop(0, #666666), color-stop(1, black));
-  }
-}
+  select[size="1"]
+    // Base64 encoded "../images/select_arrow.gif"
+    background-position: 5px center
+    padding-right: 0px
+    padding-left: 20px
+
+  \::-webkit-validation-bubble-message
+    background: -webkit-gradient(linear, right top, right bottom, color-stop(0, #666666), color-stop(1, black))
