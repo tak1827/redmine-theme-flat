@@ -1,9 +1,6 @@
 Flat theme for Redmine
 ======================
-
-[screenshot1]: http://i.imgur.com/rMc4UUc.jpg "Flat screenshot"
-
-![Flat screenshot][screenshot1]
+![alt demo_png](ScreenShot.png)
 
 ## Installation
 
